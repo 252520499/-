@@ -24,6 +24,12 @@ const REDFOX_KEY = process.env.REDFOX_API_KEY || '';
 const REDFOX_URL = process.env.REDFOX_URL || 'https://redfox.hk/story/api/dy/search/likesRank';
 const SOURCE = 'workbuddy';
 
+// 本地日期 -> YYYY-MM-DD（按用户时区，避免 UTC 偏移导致跨天）
+function ymd(d) {
+  var z = function (n) { return String(n).padStart(2, '0'); };
+  return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate());
+}
+
 // 简单内存缓存，避免频繁打红狐接口（10 分钟）
 const cache = new Map();
 const CACHE_TTL = 10 * 60 * 1000;
@@ -41,6 +47,7 @@ app.get('/api/health', function (req, res) {
 
 app.get('/api/douyin', async function (req, res) {
   const type = (req.query.type || '动物').toString();
+  const range = (req.query.range || '7d').toString(); // 'today' | '7d'
   const date = req.query.date ? req.query.date.toString() : '';
   res.set('Access-Control-Allow-Origin', '*');
   res.set('Cache-Control', 'no-store');
@@ -53,14 +60,27 @@ app.get('/api/douyin', async function (req, res) {
     });
   }
 
-  const cacheKey = type + '|' + date;
+  const cacheKey = type + '|' + range + '|' + date;
   const hit = cache.get(cacheKey);
   if (hit && Date.now() - hit.ts < CACHE_TTL) {
     return res.json({ code: 0, msg: 'ok (cached)', data: hit.payload, count: hit.payload.length, cached: true });
   }
 
   const body = { source: SOURCE, type: type };
-  if (date) { body.startTime = date; body.endTime = date; }
+  if (range === 'today') {
+    // 抖音每日榜通常 T+1 更新，当日往往为空，默认取最新一期（昨天）
+    const d = new Date();
+    d.setDate(d.getDate() - 1);
+    const single = date || ymd(d);
+    body.startTime = single;
+    body.endTime = single;
+  } else { // 默认近 7 天：start=今天-6天，end=今天
+    const end = new Date();
+    const start = new Date();
+    start.setDate(start.getDate() - 6);
+    body.startTime = ymd(start);
+    body.endTime = ymd(end);
+  }
 
   const ctrl = new AbortController();
   const timer = setTimeout(function () { ctrl.abort(); }, UPSTREAM_TIMEOUT);

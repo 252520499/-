@@ -139,7 +139,7 @@
   }
 
   // ============ 视图：今日爆款视频 ============
-  var viralFilter = { tag: '全部', sort: 'default', q: '' };
+  var viralFilter = { tag: '全部', sort: 'default', q: '', range: '7d' };
   function renderViral() {
     var box = $('#view-viral');
     var chips = '<div class="chips" id="tagChips">' +
@@ -155,6 +155,10 @@
         opt('comment', '评论最高', viralFilter.sort) +
         opt('share', '转发最高', viralFilter.sort) +
         opt('collect', '收藏最高', viralFilter.sort) +
+      '</select>' +
+      '<select class="select" id="vRange">' +
+        opt('7d', '近7天', viralFilter.range) +
+        opt('today', '今日', viralFilter.range) +
       '</select>' +
       '<button class="btn btn-primary btn-sm" id="vRefresh">🔄 刷新真实榜单</button>' +
       '<button class="btn btn-primary btn-sm" id="vAdd">＋添加</button>' +
@@ -175,6 +179,7 @@
     });
     $('#vSearch').addEventListener('input', function (e) { viralFilter.q = e.target.value.trim(); paintViralGrid(filteredViral()); });
     $('#vSort').onchange = function (e) { viralFilter.sort = e.target.value; paintViralGrid(filteredViral()); };
+    $('#vRange').onchange = function (e) { viralFilter.range = e.target.value; refreshViral(); };
     $('#vAdd').onclick = openViralAdd;
     $('#vBulk').onclick = openViralBulk;
     $('#vRefresh').onclick = refreshViral;
@@ -326,7 +331,7 @@
   }
   function loadRealViral(opts) {
     opts = opts || {};
-    return fetch('/api/douyin?type=' + encodeURIComponent('动物'))
+    return fetch('/api/douyin?type=' + encodeURIComponent('动物') + '&range=' + encodeURIComponent(viralFilter.range || '7d'))
       .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
       .then(function (j) {
         if (!j || (j.code !== 0 && j.code !== 2000) || !Array.isArray(j.data)) throw new Error((j && j.msg) ? j.msg : '返回格式异常');
@@ -348,9 +353,10 @@
   function refreshViral() {
     var st = $('#vStatus'); if (st) st.textContent = '刷新中…';
     loadRealViral({ fallback: true }).then(function (r) {
-      if (st) st.textContent = (r.live ? '✅ 实时榜单 · ' : '📦 本地榜单 · ') + '更新于 ' + nowTime() + ' · 共 ' + r.count + ' 条';
+      var lbl = (viralFilter.range === 'today') ? '今日' : '近7天';
+      if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · ' : '📦 本地榜单 · ') + '更新于 ' + nowTime() + ' · 共 ' + r.count + ' 条';
       renderViral();
-      toast('已更新 ' + r.count + ' 条真实爆款');
+      toast('已更新 ' + r.count + ' 条真实爆款（' + lbl + '）');
     }).catch(function (err) {
       if (st) st.textContent = '⚠️ 实时榜单不可用：' + (err && err.message ? err.message : err) + '（显示示例数据）';
     });
@@ -359,7 +365,8 @@
     if (viralAutoLoaded) return;
     viralAutoLoaded = true;
     loadRealViral({ fallback: true }).then(function (r) {
-      var st = $('#vStatus'); if (st) st.textContent = (r.live ? '✅ 实时榜单 · ' : '📦 本地榜单 · ') + '更新于 ' + nowTime() + ' · 共 ' + r.count + ' 条';
+      var lbl = (viralFilter.range === 'today') ? '今日' : '近7天';
+      var st = $('#vStatus'); if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · ' : '📦 本地榜单 · ') + '更新于 ' + nowTime() + ' · 共 ' + r.count + ' 条';
       renderViral();
     }).catch(function () {
       var st = $('#vStatus'); if (st) st.textContent = '示例数据 · 未连接实时榜单服务（运行后端或执行 refresh.js 后可拉取真实数据）';

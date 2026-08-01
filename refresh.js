@@ -21,12 +21,20 @@ const SOURCE = 'workbuddy';
 const TYPE = process.env.DY_TYPE || '动物';
 const OUT = path.join(__dirname, 'hot-videos.json');
 
+function ymd(d) {
+  var z = function (n) { return String(n).padStart(2, '0'); };
+  return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate());
+}
+
 async function main() {
   if (!REDFOX_KEY) {
     console.error('❌ 未配置 REDFOX_API_KEY，请在 .env 中填入后重试。');
     process.exit(1);
   }
-  const body = { source: SOURCE, type: TYPE };
+  const end = new Date();
+  const start = new Date();
+  start.setDate(start.getDate() - 6);
+  const body = { source: SOURCE, type: TYPE, startTime: ymd(start), endTime: ymd(end) };
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 15000);
   try {
