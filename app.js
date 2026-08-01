@@ -150,7 +150,7 @@
     var bar = '<div class="toolbar">' +
       '<div class="search"><span>🔍</span><input id="vSearch" placeholder="搜索标题/作者" value="' + esc(viralFilter.q) + '"></div>' +
       '<select class="select" id="vSort">' +
-        opt('default', '综合排序', viralFilter.sort) +
+        opt('default', '综合爆款指数', viralFilter.sort) +
         opt('like', '点赞最高', viralFilter.sort) +
         opt('comment', '评论最高', viralFilter.sort) +
         opt('share', '转发最高', viralFilter.sort) +
@@ -196,11 +196,13 @@
     var grid = $('#vGrid'); if (!grid) return;
     if (!list.length) { grid.innerHTML = '<div class="empty"><div class="big">🐱</div>没有匹配的爆款视频</div>'; return; }
     grid.innerHTML = list.map(function (v, i) {
-      var rank = (viralFilter.sort !== 'default') ? '<span class="vcard-rank">#' + (i + 1) + '</span>' : '<span class="vcard-rank">TOP</span>';
-      var tags = (v.tags || []).map(function (t) { return '<span class="vtag">' + esc(t) + '</span>'; }).join('');
+      var rank = '<span class="vcard-rank">#' + (i + 1) + '</span>';
+      var tags = (v.tags || []).map(function (t) { return '<span class="vtag' + (t === '萌宠' ? ' vtag-base' : '') + '">' + esc(t) + '</span>'; }).join('');
       return '<div class="card vcard">' +
         (v.cover ? '<div class="vcard-cover"><img loading="lazy" src="' + esc(v.cover) + '" alt=""></div>' : '') +
-        '<div class="vcard-head">' + rank + '<span class="muted">' + esc(v.author || '') + '</span></div>' +
+        '<div class="vcard-head">' + rank + '<span class="muted">' + esc(v.author || '') + '</span>' +
+          (v.hot ? '<span class="vcard-hot" title="综合爆款指数 = 点赞 + 评论×5 + 转发×10 + 收藏×3">🔥 ' + fmtNum(v.hot) + '</span>' : '') +
+        '</div>' +
         '<div class="vcard-title">' + esc(v.title) + '</div>' +
         '<div class="vtags">' + tags + '</div>' +
         '<div class="vmetrics">' +
@@ -295,19 +297,24 @@
     return String(n);
   }
   function mapDouyinItem(it, i) {
-    var tags = ['萌宠'];
-    if (it.category && it.category !== '萌宠' && tags.indexOf(it.category) === -1) tags.push(it.category);
+    // 优先使用服务端已打好的标签；兜底按萌宠处理
+    var tags = (Array.isArray(it.tags) && it.tags.length) ? it.tags.slice() : ['萌宠'];
     var fans = Number(it.followerCount) || 0;
     var author = (it.accountName || '') + (fans ? '（' + fmtFans(fans) + '）' : '');
+    var like = parseCount(it.likeCount), comment = parseCount(it.commentCount),
+        share = parseCount(it.shareCount), collect = parseCount(it.collectCount);
+    // 综合爆款指数（服务端已算则用，否则本地补算，保证手动添加的视频也有）
+    var hot = Number(it.hot) || (like + comment * 5 + share * 10 + collect * 3);
     return {
       id: 'dy_' + (it.workId || ('idx' + i)),
       title: it.title || it.content || '未命名视频',
       author: author,
       tags: tags,
-      like: parseCount(it.likeCount), comment: parseCount(it.commentCount),
-      share: parseCount(it.shareCount), collect: parseCount(it.collectCount),
+      like: like, comment: comment,
+      share: share, collect: collect,
+      hot: hot,
       url: it.workUrl || '#', date: today(), note: '',
-      sample: false, source: 'douyin', category: it.category || '', rank: i + 1,
+      sample: false, source: 'douyin', category: it.category || '', rank: it.rank || (i + 1),
       cover: it.coverUrl || ''
     };
   }

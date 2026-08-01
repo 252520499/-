@@ -15,6 +15,7 @@
 const path = require('path');
 const express = require('express');
 require('dotenv').config();
+const enrich = require('./enrich'); // 萌宠过滤 + 综合爆款指数 + 打标
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -78,8 +79,10 @@ app.get('/api/douyin', async function (req, res) {
         data: null
       });
     }
-    cache.set(cacheKey, { ts: Date.now(), payload: j.data });
-    return res.json({ code: 0, msg: 'ok', data: j.data, count: j.data.length });
+    // 转成萌宠赛道可用榜单（过滤无关内容 + 综合爆款指数重排 + 打标）
+    const enriched = enrich.enrichItems(j.data);
+    cache.set(cacheKey, { ts: Date.now(), payload: enriched });
+    return res.json({ code: 0, msg: 'ok', data: enriched, count: enriched.length });
   } catch (e) {
     const msg = (e && e.name === 'AbortError') ? '请求红狐接口超时' : ('请求红狐接口失败：' + ((e && e.message) || '网络错误'));
     return res.json({ code: 502, msg: msg, data: null });
