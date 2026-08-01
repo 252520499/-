@@ -1,0 +1,13 @@
+# 依赖
+node_modules/
+
+# 密钥（切勿提交！）
+.env
+
+# 本地运行/部署临时文件
+_*
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+# Render 一键部署配置（Blueprint）
+# 用法：把整个「自媒体创作工作台」目录推到 GitHub，在 Render 里 New > Blueprint > 选此仓库即可。
+# 部署过程中会要求填写 REDFOX_API_KEY（你的红狐 Key），PORT 由 Render 自动注入，无需设置。
+services:
+  - type: web
+    name: douyin-creator-workbench
+    runtime: node
+    plan: free
+    region: oregon          # 可选：singapore / frankfurt / oregon / virginia / ohio
+    branch: main            # 你的默认分支名，若不同请改（如 master）
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: REDFOX_API_KEY
+        sync: false         # 部署时手动填写真实 Key（不写入仓库，安全）
+      - key: NODE_VERSION
+        value: "18"

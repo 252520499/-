@@ -1,0 +1,14 @@
+{
+  "name": "自媒体创作工作台",
+  "short_name": "创作台",
+  "description": "萌宠/猫咪自媒体创作工作台：爆款选题、制作、发布、数据盘点",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbf6f0",
+  "theme_color": "#ff8a65",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
