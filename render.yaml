@@ -7,7 +7,7 @@ services:
     runtime: node
     plan: free
     region: oregon          # 可选：singapore / frankfurt / oregon / virginia / ohio
-    branch: main            # 你的默认分支名，若不同请改（如 master）
+    branch: master          # 与本地默认分支保持一致
     buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /api/health
