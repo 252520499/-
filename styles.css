@@ -223,3 +223,50 @@ table.dt tr:nth-child(even) td { background: var(--surface-2); }
   .modal-card { border-radius: 22px; margin: auto; }
   .modal-root { align-items: center; }
 }
+
+/* ---------- 添加到主屏幕引导 ---------- */
+.install-guide {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 90;
+  display: flex; justify-content: center;
+  padding: 10px 10px calc(10px + env(safe-area-inset-bottom, 0px));
+  pointer-events: none;
+}
+.install-guide[hidden] { display: none; }
+.ig-card {
+  pointer-events: auto;
+  width: 100%; max-width: 460px;
+  background: rgba(255,255,255,0.94);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(120,90,60,0.18);
+  padding: 14px 16px;
+  position: relative;
+  animation: igUp .28s cubic-bezier(.16,1,.3,1);
+}
+@keyframes igUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+.ig-close {
+  position: absolute; top: 8px; right: 10px;
+  width: 26px; height: 26px; border-radius: 50%;
+  font-size: 20px; line-height: 1; color: var(--muted);
+  background: rgba(0,0,0,0.04);
+}
+.ig-close:active { transform: scale(.92); }
+.ig-title { font-size: 15px; font-weight: 800; color: var(--text); margin-bottom: 4px; padding-right: 24px; }
+.ig-text { font-size: 13px; color: #6b6258; line-height: 1.5; }
+.ig-install {
+  margin-top: 10px; width: 100%;
+  padding: 11px; border-radius: 12px;
+  background: linear-gradient(180deg,#ff9b78,#ff8a65);
+  color: #fff; font-size: 15px; font-weight: 700;
+  box-shadow: 0 6px 16px rgba(255,122,90,0.35);
+}
+.ig-install:active { transform: scale(.98); }
+.ig-foot { display: flex; gap: 10px; margin-top: 10px; }
+.ig-later, .ig-never {
+  flex: 1; padding: 8px; border-radius: 10px;
+  font-size: 13px; color: var(--muted);
+  background: rgba(0,0,0,0.04);
+}
+.ig-later:active, .ig-never:active { transform: scale(.97); }
