@@ -350,7 +350,7 @@
           .then(function (r) { if (!r.ok) throw new Error('无本地榜单'); return r.json(); })
           .then(function (j) {
             if (!j || !Array.isArray(j.items) || !j.items.length) throw new Error('本地榜单为空');
-            applyDouyinItems(j.items);
+            applyDouyinItems(j.items.map(mapDouyinItem));
             return { ok: true, count: j.items.length, live: false, updatedAt: j.updatedAt };
           });
       });
