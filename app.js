@@ -359,7 +359,7 @@
     var st = $('#vStatus'); if (st) st.textContent = '刷新中…';
     loadRealViral({ fallback: true }).then(function (r) {
       var lbl = (viralFilter.range === 'today') ? '今日' : '近7天';
-      if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · 更新于 ' + nowTime() : '📦 本地榜单 · 数据更新于 ' + fmtUpd(r.updatedAt)) + ' · 共 ' + r.count + ' 条';
+      if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · 更新于 ' + nowTime() : '📦 每日快照 · 数据更新于 ' + fmtUpd(r.updatedAt)) + ' · 共 ' + r.count + ' 条';
       renderViral();
       toast('已更新 ' + r.count + ' 条真实爆款（' + lbl + '）');
     }).catch(function (err) {
@@ -371,7 +371,7 @@
     viralAutoLoaded = true;
     loadRealViral({ fallback: true }).then(function (r) {
       var lbl = (viralFilter.range === 'today') ? '今日' : '近7天';
-      var st = $('#vStatus'); if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · 更新于 ' + nowTime() : '📦 本地榜单 · 数据更新于 ' + fmtUpd(r.updatedAt)) + ' · 共 ' + r.count + ' 条';
+      var st = $('#vStatus'); if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · 更新于 ' + nowTime() : '📦 每日快照 · 数据更新于 ' + fmtUpd(r.updatedAt)) + ' · 共 ' + r.count + ' 条';
       renderViral();
     }).catch(function () {
       var st = $('#vStatus'); if (st) st.textContent = '示例数据 · 未连接实时榜单服务（运行后端或执行 refresh.js 后可拉取真实数据）';
