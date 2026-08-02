@@ -1,0 +1,38 @@
+name: 每日更新爆款数据
+
+on:
+  schedule:
+    - cron: '0 22 * * *'   # UTC 22:00 = 北京时间 06:00，每天早上自动烘焙
+  workflow_dispatch: {}    # 支持在 GitHub Actions 页面手动点「Run workflow」立即更新
+
+permissions:
+  contents: write
+
+jobs:
+  bake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 烘焙爆款数据（拉取红狐榜单 → 萌宠过滤 → 综合爆款指数 → 打标 → 写 hot-videos.json）
+        run: node refresh.js
+        env:
+          REDFOX_API_KEY: ${{ secrets.REDFOX_API_KEY }}
+
+      - name: 提交数据并推送
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hot-videos.json
+          if git diff --cached --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore: 每日爆款数据更新 [skip ci]"
+            git push
+          fi

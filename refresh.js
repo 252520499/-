@@ -12,7 +12,8 @@
  */
 const fs = require('fs');
 const path = require('path');
-require('dotenv').config();
+// GitHub Actions 等环境未安装 dotenv 时直接使用环境变量；本地有 .env 则自动加载（指定脚本同目录，避免 cwd 不同找不到）
+try { require('dotenv').config({ path: path.join(__dirname, '.env') }); } catch (e) {}
 const enrich = require('./enrich'); // 萌宠过滤 + 综合爆款指数 + 打标
 
 const REDFOX_KEY = process.env.REDFOX_API_KEY || '';

@@ -56,6 +56,11 @@
   function today() { var d = new Date(); return d.getFullYear() + '-' + p2(d.getMonth() + 1) + '-' + p2(d.getDate()); }
   function p2(n) { return n < 10 ? '0' + n : '' + n; }
   function nowTime() { var d = new Date(); return p2(d.getHours()) + ':' + p2(d.getMinutes()); }
+  function fmtUpd(ts) {
+    if (!ts) return nowTime();
+    var d = new Date(ts);
+    return (d.getMonth() + 1) + '-' + p2(d.getDate()) + ' ' + p2(d.getHours()) + ':' + p2(d.getMinutes());
+  }
   function fmtNum(n) {
     n = Number(n) || 0;
     if (n >= 1e8) return (n / 1e8).toFixed(1).replace(/\.0$/, '') + '亿';
@@ -354,7 +359,7 @@
     var st = $('#vStatus'); if (st) st.textContent = '刷新中…';
     loadRealViral({ fallback: true }).then(function (r) {
       var lbl = (viralFilter.range === 'today') ? '今日' : '近7天';
-      if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · ' : '📦 本地榜单 · ') + '更新于 ' + nowTime() + ' · 共 ' + r.count + ' 条';
+      if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · 更新于 ' + nowTime() : '📦 本地榜单 · 数据更新于 ' + fmtUpd(r.updatedAt)) + ' · 共 ' + r.count + ' 条';
       renderViral();
       toast('已更新 ' + r.count + ' 条真实爆款（' + lbl + '）');
     }).catch(function (err) {
@@ -366,7 +371,7 @@
     viralAutoLoaded = true;
     loadRealViral({ fallback: true }).then(function (r) {
       var lbl = (viralFilter.range === 'today') ? '今日' : '近7天';
-      var st = $('#vStatus'); if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · ' : '📦 本地榜单 · ') + '更新于 ' + nowTime() + ' · 共 ' + r.count + ' 条';
+      var st = $('#vStatus'); if (st) st.textContent = (r.live ? '✅ 实时榜单(' + lbl + ') · 更新于 ' + nowTime() : '📦 本地榜单 · 数据更新于 ' + fmtUpd(r.updatedAt)) + ' · 共 ' + r.count + ' 条';
       renderViral();
     }).catch(function () {
       var st = $('#vStatus'); if (st) st.textContent = '示例数据 · 未连接实时榜单服务（运行后端或执行 refresh.js 后可拉取真实数据）';
@@ -757,6 +762,89 @@
     });
   }
 
+  // ============ 添加到主屏幕引导 ============
+  var deferredPrompt = null;
+  function isInstalledStandalone() {
+    return (navigator.standalone === true) ||
+           (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches);
+  }
+  function isMobileDevice() {
+    return (window.matchMedia && window.matchMedia('(pointer: coarse)').matches) ||
+           navigator.maxTouchPoints > 0;
+  }
+  function guideDismissed() {
+    try {
+      var v = localStorage.getItem('smwb_install_dismissed');
+      if (!v) return false;
+      if (v === 'forever') return true;
+      var ts = parseInt(v, 10);
+      return !isNaN(ts) && Date.now() < ts;
+    } catch (e) { return false; }
+  }
+  function setGuideDismiss(days) {
+    try {
+      if (days === 'forever') localStorage.setItem('smwb_install_dismissed', 'forever');
+      else localStorage.setItem('smwb_install_dismissed', String(Date.now() + days * 864e5));
+    } catch (e) {}
+  }
+  function hideGuide() {
+    var g = $('#installGuide');
+    if (g) g.hidden = true;
+  }
+  function paintGuide(opts) {
+    var g = $('#installGuide');
+    if (!g) return;
+    var html = '<div class="ig-card">' +
+      '<button class="ig-close" id="igClose" aria-label="关闭">×</button>' +
+      '<div class="ig-title">📲 ' + (opts.installable ? '安装到主屏幕' : '添加到主屏幕') + '</div>' +
+      '<div class="ig-text">' + esc(opts.text) + '</div>';
+    if (opts.installable) html += '<button class="ig-install" id="igInstall">立即安装</button>';
+    html += '<div class="ig-foot">' +
+      '<button class="ig-later" id="igLater">稍后再说</button>' +
+      '<button class="ig-never" id="igNever">不再提示</button>' +
+      '</div></div>';
+    g.innerHTML = html;
+    g.hidden = false;
+    $('#igClose').onclick = function () { setGuideDismiss(7); hideGuide(); };
+    $('#igLater').onclick = function () { setGuideDismiss(3); hideGuide(); };
+    $('#igNever').onclick = function () { setGuideDismiss('forever'); hideGuide(); };
+    if (opts.installable) {
+      $('#igInstall').onclick = function () {
+        if (!deferredPrompt) { hideGuide(); return; }
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.then(function (choice) {
+          if (choice && choice.outcome === 'accepted') setGuideDismiss('forever');
+        }).catch(function () {});
+        deferredPrompt = null;
+        hideGuide();
+      };
+    }
+  }
+  function maybeShowGuide() {
+    var g = $('#installGuide');
+    if (!g) return;
+    if (isInstalledStandalone() || !isMobileDevice() || guideDismissed()) { hideGuide(); return; }
+    var isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if (deferredPrompt) {
+      paintGuide({ installable: true, text: '把工作台装到手机桌面，像 App 一样一点就开，不用每次输地址。' });
+    } else if (isIOS) {
+      paintGuide({ installable: false, text: '点下方 Safari 的「分享」按钮 📤，再选「添加到主屏幕」，就能放桌面常驻、一点就开。' });
+    } else {
+      paintGuide({ installable: false, text: '点浏览器右上角菜单 ⋮，选「安装应用 / 添加到主屏幕」，放桌面随时打开。' });
+    }
+  }
+  function initInstallGuide() {
+    window.addEventListener('beforeinstallprompt', function (e) {
+      e.preventDefault();
+      deferredPrompt = e;
+      maybeShowGuide();
+    });
+    window.addEventListener('appinstalled', function () {
+      setGuideDismiss('forever'); hideGuide();
+    });
+    setTimeout(maybeShowGuide, 1500);
+  }
+
   // ============ 初始化 ============
   function init() {
     $all('.nav-item').forEach(function (n) { n.onclick = function () { showView(n.dataset.view); }; });
@@ -764,9 +852,19 @@
     var last = 'viral';
     try { last = localStorage.getItem('smwb_lastview') || 'viral'; } catch (e) {}
     showView(last);
+    initInstallGuide();
     // PWA
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(function () {});
+      navigator.serviceWorker.register('sw.js').then(function (reg) {
+        reg.addEventListener('updatefound', function () {
+          var newWorker = reg.installing;
+          newWorker.addEventListener('statechange', function () {
+            if (newWorker.state === 'activated') {
+              window.location.reload();
+            }
+          });
+        });
+      }).catch(function () {});
     }
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
