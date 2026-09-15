@@ -1,30 +1,62 @@
 {
-  "updatedAt": 1789430640739,
+  "updatedAt": 1789516114322,
   "date": "2026-09-15",
   "source": "douyin",
   "type": "动物",
   "items": [
     {
-      "accountId": "57551547527",
-      "accountName": "🐻阿奇狗🐻",
-      "avatarUrl": "https://p26.douyinpic.com/aweme-avatar/tos-cn-i-0813c001_owJ0TyOIh24lAfNCTACEAgAqHGA2CkzDAIYtez~tplv-dy-shrink:188:188.jpeg?from=2956013662",
+      "accountId": "1834442177919933",
+      "accountName": "美狗鱼",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_d43ce47fe37f629b36870364f13c7ef7~tplv-dy-shrink:96:96.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 138579,
-      "commentCount": 77826,
+      "collectCount": 88849,
+      "commentCount": 47037,
+      "commentTopKeywords": [],
+      "content": "人坏猫好 ( ͡° ͜ʖ ͡°) #人坏猫好 #小猫咪能有什么错",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oIMAETAF6EAiC2AAe6DkBeIeOI9uDf2Kc6aqvk~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104855200&x-signature=Cf67hN4%2BF%2B%2ByQ7AE7mZtXI7Ec6Q%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260916024229316D64E8C5F7CA119479",
+      "duration": 8869,
+      "followerCount": 167186,
+      "isPromotion": null,
+      "likeCount": 2422578,
+      "popularityScore": null,
+      "publishTime": "2026-09-12 14:56:48",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 3477670,
+      "title": "人坏猫好 ( ͡° ͜ʖ ͡°) #人坏猫好 #小猫咪能有什么错",
+      "totalScore": null,
+      "workId": "7684539200524637541",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7684539200524637541",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 37701010,
+      "rank": 1
+    },
+    {
+      "accountId": "57551547527",
+      "accountName": "🐻阿奇狗🐻",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-i-0813c001_owJ0TyOIh24lAfNCTACEAgAqHGA2CkzDAIYtez~tplv-dy-shrink:96:96.jpeg?from=327834062",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 140638,
+      "commentCount": 79209,
       "commentTopKeywords": [],
       "content": "一大早不知道猫怎么惹着狗了 #德牧#橘猫#阿奇狗",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/5e892065a2669245c4892ef4c0136630~tplv-dy-resize-origshort-autoq-75:330.jpeg?lk3s=138a59ce&x-expires=2104776000&x-signature=7aMvcFG1G3q1gP0AVePKayu6H6k%3D&from=327834062&s=PackSourceEnum_SERIES_AWEME&se=false&sc=cover&biz_tag=pcweb_cover&l=20260915043917FB6C317CA15CCE916F5C",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oMDIziPYaCPIuRREDROjAvPQAAA7qgRG2YAiB~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104858800&x-signature=exZUbc6izgDYo5h9KYO8vc4YALc%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026091603133942A0730C109E410142D6",
       "duration": 25467,
-      "followerCount": 864575,
+      "followerCount": 865500,
       "isPromotion": null,
-      "likeCount": 3588161,
+      "likeCount": 3646327,
       "popularityScore": null,
       "publishTime": "2026-09-09 11:53:34",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 3034980,
+      "shareCount": 3074890,
       "title": "一大早不知道猫怎么惹着狗了 #德牧#橘猫#阿奇狗",
       "totalScore": null,
       "workId": "7683378719399265103",
@@ -34,62 +66,30 @@
         "萌宠",
         "养猫人"
       ],
-      "hot": 34742828,
-      "rank": 1
-    },
-    {
-      "accountId": "1834442177919933",
-      "accountName": "美狗鱼",
-      "avatarUrl": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_d43ce47fe37f629b36870364f13c7ef7.jpeg?from=327834062",
-      "category": "动物",
-      "chaInfoTitle": null,
-      "collectCount": 75257,
-      "commentCount": 41329,
-      "commentTopKeywords": [],
-      "content": "人坏猫好 ( ͡° ͜ʖ ͡°) #人坏猫好 #小猫咪能有什么错",
-      "coverUrl": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oIMAETAF6EAiC2AAe6DkBeIeOI9uDf2Kc6aqvk~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1790636400&x-signature=v15bnINuMC1MzUSntgx11p%2FMXis%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=cover&biz_tag=aweme_video&l=20260915070004F5BBA7C1121BF9823E01",
-      "duration": 8869,
-      "followerCount": 164378,
-      "isPromotion": null,
-      "likeCount": 2067028,
-      "popularityScore": null,
-      "publishTime": "2026-09-12 14:56:48",
-      "recencyScore": null,
-      "relevanceScore": null,
-      "repostCount": 0,
-      "shareCount": 3099850,
-      "title": "人坏猫好 ( ͡° ͜ʖ ͡°) #人坏猫好 #小猫咪能有什么错",
-      "totalScore": null,
-      "workId": "7684539200524637541",
-      "workType": "0",
-      "workUrl": "https://www.iesdouyin.com/share/video/7684539200524637541",
-      "tags": [
-        "萌宠"
-      ],
-      "hot": 33497944,
+      "hot": 35213186,
       "rank": 2
     },
     {
       "accountId": "68713229498",
       "accountName": "金毛开心多莉",
-      "avatarUrl": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_4d8a36a7e9afa75ad5fd8b508b4e8a6c.jpeg?from=327834062",
+      "avatarUrl": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_4d8a36a7e9afa75ad5fd8b508b4e8a6c.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 30745,
-      "commentCount": 58145,
+      "collectCount": 30096,
+      "commentCount": 58385,
       "commentTopKeywords": [],
       "content": "太上头了 #狗狗 #金毛",
-      "coverUrl": "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEQDqoG3CQsjABSwkhiEJzlAEqoMiKeIVwfF9O~540x0.jpeg?lk3s=138a59ce&x-expires=1790452800&x-signature=OVqjai736AZubcC00pd563hFUoY%3D&from=327834062_large&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=20260913041157D84787A574FBB7B059B5",
+      "coverUrl": "https://p26-sign.douyinpic.com/tos-cn-p-0015c000-ce/oEQDqoG3CQsjABSwkhiEJzlAEqoMiKeIVwfF9O~540x0.jpeg?lk3s=138a59ce&x-expires=1790708400&x-signature=hzae7iSv3P55C%2BqPTyWfYSVe2cU%3D&from=327834062_large&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=202609160343526A065960FC4323C175AF",
       "duration": 16300,
-      "followerCount": 72710,
+      "followerCount": 74372,
       "isPromotion": null,
-      "likeCount": 658238,
+      "likeCount": 665738,
       "popularityScore": null,
       "publishTime": "2026-09-10 12:57:45",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 1525092,
+      "shareCount": 1544971,
       "title": "太上头了 #狗狗 #金毛",
       "totalScore": null,
       "workId": "7683766350959103643",
@@ -98,7 +98,7 @@
       "tags": [
         "萌宠"
       ],
-      "hot": 16292118,
+      "hot": 16497661,
       "rank": 3
     },
     {
@@ -137,24 +137,24 @@
     {
       "accountId": "67581550221",
       "accountName": "安静的浣熊",
-      "avatarUrl": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_da2e8beb9d3c74c3ea7a88615e25fb14.jpeg?from=327834062",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_da2e8beb9d3c74c3ea7a88615e25fb14~tplv-dy-shrink:96:96.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 33459,
-      "commentCount": 23944,
+      "collectCount": 34950,
+      "commentCount": 25172,
       "commentTopKeywords": [],
       "content": "给浣熊喂螺蛳粉 #浣熊#抖in萌宠计划",
-      "coverUrl": "https://p95-zjwztc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oIBAoCiU6EBzU2AAMYAwfNiC1hIme8TEoAiKRC~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1790629200&x-signature=WvXfIb15Q%2BezKkR3hbdxCtrXW9g%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=cover&biz_tag=aweme_video&l=20260915050013BD63FA7902F55C78EC35",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oIBAoCiU6EBzU2AAMYAwfNiC1hIme8TEoAiKRC~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104858800&x-signature=KF5pojeoBfCqf1%2Fu2YtimZ79E6M%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=202609160308005EDEC6356CE111BA3FE8",
       "duration": 39900,
-      "followerCount": 938060,
+      "followerCount": 939006,
       "isPromotion": null,
-      "likeCount": 863521,
+      "likeCount": 899177,
       "popularityScore": null,
       "publishTime": "2026-09-10 12:00:00",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 1040154,
+      "shareCount": 1079860,
       "title": "给浣熊喂螺蛳粉 #浣熊#抖in萌宠计划",
       "totalScore": null,
       "workId": "7683499584710342897",
@@ -163,8 +163,40 @@
       "tags": [
         "萌宠"
       ],
-      "hot": 11485158,
+      "hot": 11928487,
       "rank": 5
+    },
+    {
+      "accountId": "77373701425",
+      "accountName": "迪士尼在逃黄狗coco",
+      "avatarUrl": "https://p11.douyinpic.com/aweme-avatar/mosaic-legacy_3142500053c449fa2908f~tplv-dy-shrink:188:188.jpeg?from=2956013662",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 100632,
+      "commentCount": 12162,
+      "commentTopKeywords": [],
+      "content": "哭。有些狗 一旦搓过就不在…… #万物可爱计划 #我的秋天是毛茸茸的#我的养宠备忘录",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oAEATidBwvAC6mMifA1eEAA3Ewl42UIBo39CFn~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104855200&x-signature=v6jzmBB5arIGbOGSQrV95I0JLeg%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260916025024F0D01FB5F1E29598E649",
+      "duration": 21700,
+      "followerCount": 5134497,
+      "isPromotion": null,
+      "likeCount": 2540536,
+      "popularityScore": null,
+      "publishTime": "2026-09-12 16:55:13",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 884771,
+      "title": "哭。有些狗 一旦搓过就不在…… #万物可爱计划 #我的秋天是毛茸茸的#我的养宠备忘录",
+      "totalScore": null,
+      "workId": "7684569713896525498",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7684569713896525498",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 11750952,
+      "rank": 6
     },
     {
       "accountId": "64617000555",
@@ -196,7 +228,7 @@
         "萌宠"
       ],
       "hot": 10335780,
-      "rank": 6
+      "rank": 7
     },
     {
       "accountId": "2364423182489516",
@@ -204,21 +236,21 @@
       "avatarUrl": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_o0foej9FAPDuUyhEXBFIaIADAsAtQgCoQnANYA.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 81228,
-      "commentCount": 11755,
+      "collectCount": 82328,
+      "commentCount": 11991,
       "commentTopKeywords": [],
       "content": "所有人！保持卡点！！ #萌宠出道计划 #监控下的猫咪 #米努特矮脚猫 #巴西顺拐舞 #猫咪日常",
-      "coverUrl": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-dy/8f82e627cb0b403a984e82932826e140~noop.webp?lk3s=138a59ce&x-expires=1790618400&x-signature=gRAA%2BFi%2BxD9bki8NgGQsU7zhnTY%3D&from=327834062_large&s=PackSourceEnum_CHALLENGE_AWEME&se=false&sc=cover&biz_tag=aweme_video&l=202609150215478BFB5686C89C6473B990",
+      "coverUrl": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-dy/8f82e627cb0b403a984e82932826e140~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1790654400&x-signature=EWL5Y5YDT9aVVQS3lA%2B9XwHCZvY%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=cover&biz_tag=aweme_video&l=20260915120111F639622A0208E48FFAD3",
       "duration": 11936,
-      "followerCount": 177799,
+      "followerCount": 179238,
       "isPromotion": null,
-      "likeCount": 1952259,
+      "likeCount": 1983725,
       "popularityScore": null,
       "publishTime": "2026-09-10 00:17:00",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 735289,
+      "shareCount": 748944,
       "title": "所有人！保持卡点！！ #萌宠出道计划 #监控下的猫咪 #米努特矮脚猫 #巴西顺拐舞 #猫咪日常",
       "totalScore": null,
       "workId": "7683539204898409747",
@@ -228,40 +260,41 @@
         "萌宠",
         "猫咪日常"
       ],
-      "hot": 9607608,
-      "rank": 7
+      "hot": 9780104,
+      "rank": 8
     },
     {
-      "accountId": "77373701425",
-      "accountName": "迪士尼在逃黄狗coco",
-      "avatarUrl": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/mosaic-legacy_3142500053c449fa2908f.jpeg?from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=avatar&biz_tag=aweme_avatar&l=202609150700047ABD6D6AEB72F7BB30AA",
+      "accountId": "638153704615252",
+      "accountName": "点点麻麻呀",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_3915fe6658a7c03897abae9630199e6a~tplv-dy-shrink:96:96.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 83181,
-      "commentCount": 8865,
+      "collectCount": 38910,
+      "commentCount": 30492,
       "commentTopKeywords": [],
-      "content": "哭。有些狗 一旦搓过就不在…… #万物可爱计划 #我的秋天是毛茸茸的#我的养宠备忘录",
-      "coverUrl": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oAEATidBwvAC6mMifA1eEAA3Ewl42UIBo39CFn~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1790636400&x-signature=FboSP6R4BOz4Q5Job0WLt2f1LYo%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=cover&biz_tag=aweme_video&l=202609150700047ABD6D6AEB72F7BB30AA",
-      "duration": 21700,
-      "followerCount": 5129542,
+      "content": "她一搞手工，二狗子后背就凉飕飕的，请问这是啥大作？乱马奔腾吗？#萌娃搞笑日常 #萌娃与萌宠 #人类幼崽 @DOU+小助手",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oEqEba6fEDPpse6lvaFCw2IE9A6XAz1fAAEqAT~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104855200&x-signature=CcOxlRJCwZp%2FIQtFRq5GOMIsYDQ%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260916024642DE6D9E60C00B86ACD3D8",
+      "duration": 11700,
+      "followerCount": 2754564,
       "isPromotion": null,
-      "likeCount": 2101907,
+      "likeCount": 1188020,
       "popularityScore": null,
-      "publishTime": "2026-09-12 16:55:13",
+      "publishTime": "2026-09-12 19:55:35",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 712464,
-      "title": "哭。有些狗 一旦搓过就不在…… #万物可爱计划 #我的秋天是毛茸茸的#我的养宠备忘录",
+      "shareCount": 746164,
+      "title": "她一搞手工，二狗子后背就凉飕飕的，请问这是啥大作？乱马奔腾吗？#萌娃搞笑日常 #萌娃与萌宠 #人类幼",
       "totalScore": null,
-      "workId": "7684569713896525498",
+      "workId": "7684616193411831729",
       "workType": "0",
-      "workUrl": "https://www.iesdouyin.com/share/video/7684569713896525498",
+      "workUrl": "https://www.iesdouyin.com/share/video/7684616193411831729",
       "tags": [
-        "萌宠"
+        "萌宠",
+        "猫咪日常"
       ],
-      "hot": 9520415,
-      "rank": 8
+      "hot": 8918850,
+      "rank": 9
     },
     {
       "accountId": "3175000411747400",
@@ -294,7 +327,7 @@
         "猫咪日常"
       ],
       "hot": 8437120,
-      "rank": 9
+      "rank": 10
     },
     {
       "accountId": "3918304746682535",
@@ -327,7 +360,7 @@
         "猫咪日常"
       ],
       "hot": 8277785,
-      "rank": 10
+      "rank": 11
     },
     {
       "accountId": "969138521247306",
@@ -360,7 +393,7 @@
         "猫咪日常"
       ],
       "hot": 7913432,
-      "rank": 11
+      "rank": 12
     },
     {
       "accountId": "1084578682109961",
@@ -392,40 +425,39 @@
         "萌宠"
       ],
       "hot": 7040057,
-      "rank": 12
+      "rank": 13
     },
     {
-      "accountId": "638153704615252",
-      "accountName": "点点麻麻呀",
-      "avatarUrl": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_3915fe6658a7c03897abae9630199e6a.jpeg?from=327834062&se=false&biz_tag=feed_avatar&l=02178942834545800000000000000000000ffff0aaf3a50f824c5",
+      "accountId": "127992775843439",
+      "accountName": "小树家的韩系小比熊",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_7dc0824204d96157bdbc404a13380af7.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 29418,
-      "commentCount": 23335,
+      "collectCount": 39657,
+      "commentCount": 7041,
       "commentTopKeywords": [],
-      "content": "她一搞手工，二狗子后背就凉飕飕的，请问这是啥大作？乱马奔腾吗？#萌娃搞笑日常 #萌娃与萌宠 #人类幼崽 @DOU+小助手",
-      "coverUrl": "https://p3-sign.douyinpic.com/tos-cn-i-0813c000-ce/oEqEba6fEDPpse6lvaFCw2IE9A6XAz1fAAEqAT~tplv-dy-resize-walign-adapt-aq:540:q75.jpeg?lk3s=138a59ce&x-expires=1790636400&x-signature=bnnQpTMd9j8jiqEnohQ%2F3ZA5H5U%3D&from=327834062&s=PackSourceEnum_FEED&se=false&sc=cover&biz_tag=aweme_video&l=02178942834545800000000000000000000ffff0aaf3a50f824c5",
-      "duration": 11700,
-      "followerCount": 2748268,
+      "content": "🐶：🐯娘们 你掐我腰子啦！ #马尔泰 #捏捏响 #萌宠出道计划 #狗子成精了",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/0231d62b36df77dd0ad171b65c4352e3~tplv-dy-resize-origshort-autoq-75:330.jpeg?lk3s=138a59ce&x-expires=2104866000&x-signature=UlKDgBGGJaSLzSYfyQMzHSJxmW0%3D&from=327834062&s=PackSourceEnum_WEBPC_RELATED_AWEME&se=false&sc=cover&biz_tag=pcweb_cover&l=2026091605113812C135E298F5D4E8954C",
+      "duration": 10767,
+      "followerCount": 97716,
       "isPromotion": null,
-      "likeCount": 918485,
+      "likeCount": 618807,
       "popularityScore": null,
-      "publishTime": "2026-09-12 19:55:35",
+      "publishTime": "2026-09-09 17:04:47",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 578836,
-      "title": "她一搞手工，二狗子后背就凉飕飕的，请问这是啥大作？乱马奔腾吗？#萌娃搞笑日常 #萌娃与萌宠 #人类幼",
+      "shareCount": 570786,
+      "title": "🐶：🐯娘们 你掐我腰子啦！ #马尔泰 #捏捏响 #萌宠出道计划 #狗子成精了",
       "totalScore": null,
-      "workId": "7684616193411831729",
+      "workId": "7683458926529523825",
       "workType": "0",
-      "workUrl": "https://www.iesdouyin.com/share/video/7684616193411831729",
+      "workUrl": "https://www.iesdouyin.com/share/video/7683458926529523825",
       "tags": [
-        "萌宠",
-        "猫咪日常"
+        "萌宠"
       ],
-      "hot": 6911774,
-      "rank": 13
+      "hot": 6480843,
+      "rank": 14
     },
     {
       "accountId": "59618082929",
@@ -458,7 +490,7 @@
         "猫咪日常"
       ],
       "hot": 5948132,
-      "rank": 14
+      "rank": 15
     },
     {
       "accountId": "61211406640",
@@ -491,29 +523,61 @@
         "猫咪冷知识"
       ],
       "hot": 5767085,
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "accountId": "54761825179",
+      "accountName": "沙拉酱拌番茄",
+      "avatarUrl": "https://p3.douyinpic.com/aweme-avatar/tos-cn-avt-0015_3b8100767c316f9b502c507bdcb0ca9b~tplv-dy-shrink:188:188.jpeg?from=2956013662&s=PackSourceEnum_USER_PROFILE&se=true&sh=188_188&sc=avatar&l=20260916015834EB3478E6C0DAA39076A2&biz_tag=aweme_avatar",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 29409,
+      "commentCount": 8511,
+      "commentTopKeywords": [],
+      "content": "人好猫坏！ #小奶猫 #小猫咪能有什么坏心眼 #猫好人坏",
+      "coverUrl": "https://p95-zjwztc-sign.douyinpic.com/tos-cn-i-0813/o0cWBaeGGI2E7oVBfdf0FT33PEoAVIaALAAHQA~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1790708400&x-signature=kXCTBoAxdSNGt5KnvgaqR6jP5II%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=cover&biz_tag=aweme_video&l=2026091603485325E5FB061D2579D4A2F0",
+      "duration": 5572,
+      "followerCount": 1493220,
+      "isPromotion": null,
+      "likeCount": 675182,
+      "popularityScore": null,
+      "publishTime": "2026-09-14 17:15:49",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 427417,
+      "title": "人好猫坏！ #小奶猫 #小猫咪能有什么坏心眼 #猫好人坏",
+      "totalScore": null,
+      "workId": "7685317192465103247",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7685317192465103247",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 5080134,
+      "rank": 17
     },
     {
       "accountId": "50028444571",
       "accountName": "小花花的每一天",
-      "avatarUrl": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_9f63f1918e0cf0e010c1b5b3e461c755.jpeg?from=2956013662",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_9f63f1918e0cf0e010c1b5b3e461c755.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 33158,
-      "commentCount": 14901,
+      "collectCount": 33812,
+      "commentCount": 15223,
       "commentTopKeywords": [],
       "content": "命运戏弄大馋狗 #小狗 #萌宠 #小狗的两幅面孔",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/a11365aa169b852dd7ed9dfdcc918ec0~tplv-dy-resize-origshort-autoq-75:330.jpeg?lk3s=138a59ce&x-expires=2104776000&x-signature=A%2Bh4U1N8RusfZUVjkvS3GpCPKSo%3D&from=327834062&s=PackSourceEnum_WEBPC_RELATED_AWEME&se=false&sc=cover&biz_tag=pcweb_cover&l=202609150419433A5E213485F3E8604C2E",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/oYEAhqmAUCTAYg9ehRIACFEAcNDl9oAHkfhRxC~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104851600&x-signature=5GX8qYin3r%2BUUvv6nl9GILNA9HA%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260916014053DD9FD0914CAF25000202",
       "duration": 26700,
-      "followerCount": 6324393,
+      "followerCount": 6324276,
       "isPromotion": null,
-      "likeCount": 768470,
+      "likeCount": 788698,
       "popularityScore": null,
       "publishTime": "2026-09-09 18:38:10",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 395355,
+      "shareCount": 404820,
       "title": "命运戏弄大馋狗 #小狗 #萌宠 #小狗的两幅面孔",
       "totalScore": null,
       "workId": "7683482990581018047",
@@ -522,30 +586,30 @@
       "tags": [
         "萌宠"
       ],
-      "hot": 4895999,
-      "rank": 16
+      "hot": 5014449,
+      "rank": 18
     },
     {
       "accountId": "910820166348285",
       "accountName": "钵钵鸡🐤",
-      "avatarUrl": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_dd3211439d1069de1d9c8f0d667c54ae.jpeg?from=327834062",
+      "avatarUrl": "https://p11.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_dd3211439d1069de1d9c8f0d667c54ae.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 19904,
-      "commentCount": 6852,
+      "collectCount": 21741,
+      "commentCount": 7419,
       "commentTopKeywords": [],
       "content": "一个人心中只有一个宝贝。#橘猫 #橘猫日常 #橘猫怎么养 #橘猫钵钵鸡",
-      "coverUrl": "https://p11-sign.douyinpic.com/tos-cn-i-0813/og8fBt3ACAIQAvA6INMfIqQTgIAJZe25fXCDFl~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1790625600&x-signature=GqNpRU1fbEs5FA%2FHs%2FwIP4bjKwE%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=cover&biz_tag=aweme_images&l=202609150400313B63915525FE35813744",
+      "coverUrl": "https://p5-ex-gddgtc-sign.douyinpic.com/tos-cn-i-0813/og8fBt3ACAIQAvA6INMfIqQTgIAJZe25fXCDFl~540x0.jpeg?lk3s=138a59ce&x-expires=1790701200&x-signature=8gssqE36Wl%2B635CcXN3xFyMo71k%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=false&biz_tag=aweme_images&l=202609160148390BE92F91A6A16ED02F6F",
       "duration": 0,
-      "followerCount": 36103,
+      "followerCount": 36361,
       "isPromotion": null,
-      "likeCount": 660272,
+      "likeCount": 737090,
       "popularityScore": null,
       "publishTime": "2026-09-09 14:15:30",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 378795,
+      "shareCount": 416014,
       "title": "一个人心中只有一个宝贝。#橘猫 #橘猫日常 #橘猫怎么养 #橘猫钵钵鸡",
       "totalScore": null,
       "workId": "7683415299421748426",
@@ -556,8 +620,72 @@
         "养猫人",
         "猫咪日常"
       ],
-      "hot": 4542194,
-      "rank": 17
+      "hot": 4999548,
+      "rank": 19
+    },
+    {
+      "accountId": "1020807983666430",
+      "accountName": "咻咻崽汁",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_faadbe15070c5abf85039ea2af7fb553~tplv-dy-shrink:96:96.jpeg?from=327834062",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 49204,
+      "commentCount": 4690,
+      "commentTopKeywords": [],
+      "content": "可爱颂猪咪版 #可爱颂 #萌宠独白玩法挑战 #抖音玩法合伙人计划",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oUUAApQYEixlRC70iZuisAxIPAaLMA5BvJqq1~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104855200&x-signature=pjUaB9CkOFaqDMQBi6U7yl64WK4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=202609160239236388F145BE44A9A5175B",
+      "duration": 22174,
+      "followerCount": 1669344,
+      "isPromotion": null,
+      "likeCount": 1170159,
+      "popularityScore": null,
+      "publishTime": "2026-09-12 18:51:52",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 355608,
+      "title": "可爱颂猪咪版 #可爱颂 #萌宠独白玩法挑战 #抖音玩法合伙人计划",
+      "totalScore": null,
+      "workId": "7684599773446608633",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7684599773446608633",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 4897301,
+      "rank": 20
+    },
+    {
+      "accountId": "110266773356",
+      "accountName": "月亮一猫",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_8cf5cdee1570cde682f6b00a77f5189d.jpeg?from=327834062",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 42371,
+      "commentCount": 5375,
+      "commentTopKeywords": [],
+      "content": "手段了得，冷脸萌小猫～ #猫咪 #猫咪的迷惑行为 #可爱 #猫 #萌宠",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/bd4b925879274668c313f50f9f70230e~tplv-dy-resize-origshort-autoq-75:330.jpeg?lk3s=138a59ce&x-expires=2104866000&x-signature=ZeYG07dLmui7XbZROcVlvvQrFDA%3D&from=327834062&s=PackSourceEnum_WEBPC_RELATED_AWEME&se=false&sc=cover&biz_tag=pcweb_cover&l=20260916050000B0A65A87DC7287179082",
+      "duration": 32067,
+      "followerCount": 153757,
+      "isPromotion": null,
+      "likeCount": 1352012,
+      "popularityScore": null,
+      "publishTime": "2026-09-12 18:52:44",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 317122,
+      "title": "手段了得，冷脸萌小猫～ #猫咪 #猫咪的迷惑行为 #可爱 #猫 #萌宠",
+      "totalScore": null,
+      "workId": "7684599996910477553",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7684599996910477553",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 4677220,
+      "rank": 21
     },
     {
       "accountId": "3909519190263444",
@@ -590,39 +718,7 @@
         "养猫人"
       ],
       "hot": 4538105,
-      "rank": 18
-    },
-    {
-      "accountId": "1020807983666430",
-      "accountName": "咻咻崽汁",
-      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_faadbe15070c5abf85039ea2af7fb553~tplv-dy-shrink:96:96.jpeg?from=327834062",
-      "category": "动物",
-      "chaInfoTitle": null,
-      "collectCount": 43520,
-      "commentCount": 4155,
-      "commentTopKeywords": [],
-      "content": "可爱颂猪咪版 #可爱颂 #萌宠独白玩法挑战 #抖音玩法合伙人计划",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oUUAApQYEixlRC70iZuisAxIPAaLMA5BvJqq1~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104768800&x-signature=QEXMsPfXDUFuaaZ2yitQxbjf0c4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260915022806988717306EA07968DC59",
-      "duration": 22174,
-      "followerCount": 1663664,
-      "isPromotion": null,
-      "likeCount": 1067864,
-      "popularityScore": null,
-      "publishTime": "2026-09-12 18:51:52",
-      "recencyScore": null,
-      "relevanceScore": null,
-      "repostCount": 0,
-      "shareCount": 321403,
-      "title": "可爱颂猪咪版 #可爱颂 #萌宠独白玩法挑战 #抖音玩法合伙人计划",
-      "totalScore": null,
-      "workId": "7684599773446608633",
-      "workType": "0",
-      "workUrl": "https://www.iesdouyin.com/share/video/7684599773446608633",
-      "tags": [
-        "萌宠"
-      ],
-      "hot": 4433229,
-      "rank": 19
+      "rank": 22
     },
     {
       "accountId": "61180514098",
@@ -654,7 +750,7 @@
         "萌宠"
       ],
       "hot": 4430586,
-      "rank": 20
+      "rank": 23
     },
     {
       "accountId": "56155638479",
@@ -687,7 +783,7 @@
         "养猫人"
       ],
       "hot": 4418992,
-      "rank": 21
+      "rank": 24
     },
     {
       "accountId": "96680424936",
@@ -720,7 +816,7 @@
         "养猫人"
       ],
       "hot": 4389169,
-      "rank": 22
+      "rank": 25
     },
     {
       "accountId": "1097775536144523",
@@ -752,7 +848,7 @@
         "萌宠"
       ],
       "hot": 4338374,
-      "rank": 23
+      "rank": 26
     },
     {
       "accountId": "653545091119787",
@@ -784,7 +880,39 @@
         "萌宠"
       ],
       "hot": 4293680,
-      "rank": 24
+      "rank": 27
+    },
+    {
+      "accountId": "7506153827118072892",
+      "accountName": "细狗嘻嘻",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_8b43a5c16ed4e4e1b9d8038088d12123~tplv-dy-shrink:96:96.jpeg?from=327834062",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 10001,
+      "commentCount": 3936,
+      "commentTopKeywords": [],
+      "content": "#意大利小灵缇 #小狗日记 #萌宠出道计划",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/ocjewUiCoAQhNmemA9sxFvwEBfAXiEAXWEA1wI~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104862400&x-signature=pcGyybcqBV7E6p8Q51bvZSFWu00%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026091604433334DB5294A4750DABAEEE",
+      "duration": 13434,
+      "followerCount": 250846,
+      "isPromotion": null,
+      "likeCount": 609684,
+      "popularityScore": null,
+      "publishTime": "2026-09-13 11:20:04",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 354401,
+      "title": "#意大利小灵缇 #小狗日记 #萌宠出道计划",
+      "totalScore": null,
+      "workId": "7684854431578322033",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7684854431578322033",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 4203377,
+      "rank": 28
     },
     {
       "accountId": "2279754510635032",
@@ -817,7 +945,7 @@
         "猫咪日常"
       ],
       "hot": 4178053,
-      "rank": 25
+      "rank": 29
     },
     {
       "accountId": "2197274795445785",
@@ -849,93 +977,29 @@
         "萌宠"
       ],
       "hot": 4000905,
-      "rank": 26
-    },
-    {
-      "accountId": "110266773356",
-      "accountName": "月亮一猫",
-      "avatarUrl": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-avt-0015_8cf5cdee1570cde682f6b00a77f5189d.jpeg?from=327834062",
-      "category": "动物",
-      "chaInfoTitle": null,
-      "collectCount": 33902,
-      "commentCount": 4284,
-      "commentTopKeywords": [],
-      "content": "手段了得，冷脸萌小猫～ #猫咪 #猫咪的迷惑行为 #可爱 #猫 #萌宠",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/image-cut-tos-priv/bd4b925879274668c313f50f9f70230e~tplv-dy-resize-origshort-autoq-75:330.jpeg?lk3s=138a59ce&x-expires=2104786800&x-signature=3JTmCIqEnazMl0VlL%2BHKM7mybyk%3D&from=327834062&s=PackSourceEnum_WEBPC_RELATED_AWEME&se=false&sc=cover&biz_tag=pcweb_cover&l=2026091507014143AE7724AFDE2793D789",
-      "duration": 32067,
-      "followerCount": 152219,
-      "isPromotion": null,
-      "likeCount": 1080061,
-      "popularityScore": null,
-      "publishTime": "2026-09-12 18:52:44",
-      "recencyScore": null,
-      "relevanceScore": null,
-      "repostCount": 0,
-      "shareCount": 252272,
-      "title": "手段了得，冷脸萌小猫～ #猫咪 #猫咪的迷惑行为 #可爱 #猫 #萌宠",
-      "totalScore": null,
-      "workId": "7684599996910477553",
-      "workType": "0",
-      "workUrl": "https://www.iesdouyin.com/share/video/7684599996910477553",
-      "tags": [
-        "萌宠"
-      ],
-      "hot": 3725907,
-      "rank": 27
-    },
-    {
-      "accountId": "69642717847",
-      "accountName": "萌宠指南",
-      "avatarUrl": "https://p3.douyinpic.com/aweme-avatar/mosaic-legacy_3198b0004b82fe4bbe2ca~tplv-dy-shrink:188:188.jpeg?from=2956013662",
-      "category": "动物",
-      "chaInfoTitle": null,
-      "collectCount": 56103,
-      "commentCount": 22875,
-      "commentTopKeywords": [],
-      "content": "性格好到无语的猫（第二弹） #猫 #流浪猫",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/709111f3a4474a358d2a144c4c2e6416~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104768800&x-signature=MC4kyA53AnLBMJtPRmrfZibdS48%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260915022840EAF3419ACFD2AB6C8510",
-      "duration": 139734,
-      "followerCount": 2830249,
-      "isPromotion": null,
-      "likeCount": 979071,
-      "popularityScore": null,
-      "publishTime": "2026-09-09 17:07:58",
-      "recencyScore": null,
-      "relevanceScore": null,
-      "repostCount": 0,
-      "shareCount": 226939,
-      "title": "性格好到无语的猫（第二弹） #猫 #流浪猫",
-      "totalScore": null,
-      "workId": "7683459723403742527",
-      "workType": "0",
-      "workUrl": "https://www.iesdouyin.com/share/video/7683459723403742527",
-      "tags": [
-        "萌宠"
-      ],
-      "hot": 3531145,
-      "rank": 28
+      "rank": 30
     },
     {
       "accountId": "60480371416",
       "accountName": "哈哈宝贝是水獭",
-      "avatarUrl": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_ok7G9mWdqECAAAA9aCRF5BgEIzDAeAAXggf6CF.jpeg?from=2956013662",
+      "avatarUrl": "https://p3.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_ok7G9mWdqECAAAA9aCRF5BgEIzDAeAAXggf6CF.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 12839,
-      "commentCount": 5109,
+      "collectCount": 14970,
+      "commentCount": 5558,
       "commentTopKeywords": [],
       "content": "不要眨眼！不要怀疑你没看错！小可爱在这呢！ #哈哈宝贝是水獭 #萌宠出道计划 #各地显眼包有多会整活#海合安文旅与城市共欢乐 #天津极地16周年嘛都好",
-      "coverUrl": "https://p26-sign.douyinpic.com/tos-cn-p-0015/ok8Vlg7qBaMRbPfQ3cWjPQifBwq1gACe7aEGsA~540x0.jpeg?lk3s=138a59ce&x-expires=1790546400&x-signature=LzJw%2BC4R%2B9l84zIShXOi0BvlGNw%3D&from=327834062_large&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=20260914061931F565BB8088BBFA11709E",
+      "coverUrl": "https://p26-sign.douyinpic.com/tos-cn-p-0015/ok8Vlg7qBaMRbPfQ3cWjPQifBwq1gACe7aEGsA~tplv-dy-resize-walign-adapt-aq:540:q75.jpeg?lk3s=138a59ce&x-expires=1790668800&x-signature=m%2BEyLqKWArfLG7S0wpYXtCIr2Jw%3D&from=327834062&s=PackSourceEnum_WEBPC_RELATED_AWEME&se=false&sc=cover&biz_tag=aweme_video&l=202609151644584201202AF774CAF92CCE",
       "duration": 7134,
-      "followerCount": 34800,
+      "followerCount": 37395,
       "isPromotion": null,
-      "likeCount": 775030,
+      "likeCount": 840220,
       "popularityScore": null,
       "publishTime": "2026-09-11 18:50:39",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 265183,
+      "shareCount": 287898,
       "title": "不要眨眼！不要怀疑你没看错！小可爱在这呢！ #哈哈宝贝是水獭 #萌宠出道计划 #各地显眼包有多会整活",
       "totalScore": null,
       "workId": "7684228373191336035",
@@ -944,8 +1008,40 @@
       "tags": [
         "萌宠"
       ],
-      "hot": 3490922,
-      "rank": 29
+      "hot": 3791900,
+      "rank": 31
+    },
+    {
+      "accountId": "69642717847",
+      "accountName": "萌宠指南",
+      "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/mosaic-legacy_3198b0004b82fe4bbe2ca~tplv-dy-shrink:96:96.jpeg?from=327834062",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 58801,
+      "commentCount": 23685,
+      "commentTopKeywords": [],
+      "content": "性格好到无语的猫（第二弹） #猫 #流浪猫",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-dy/709111f3a4474a358d2a144c4c2e6416~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104855200&x-signature=mLt31fxYZWicBTpaHXI%2FRx6w0lI%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026091602261613EC6614E9864108C2CD",
+      "duration": 139734,
+      "followerCount": 2831390,
+      "isPromotion": null,
+      "likeCount": 1043993,
+      "popularityScore": null,
+      "publishTime": "2026-09-09 17:07:58",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 241074,
+      "title": "性格好到无语的猫（第二弹） #猫 #流浪猫",
+      "totalScore": null,
+      "workId": "7683459723403742527",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7683459723403742527",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 3749561,
+      "rank": 32
     },
     {
       "accountId": "1825628342197351",
@@ -979,7 +1075,7 @@
         "猫咪日常"
       ],
       "hot": 3425164,
-      "rank": 30
+      "rank": 33
     },
     {
       "accountId": "2177466024862999",
@@ -1012,40 +1108,41 @@
         "猫咪日常"
       ],
       "hot": 3129211,
-      "rank": 31
+      "rank": 34
     },
     {
-      "accountId": "86295512075",
-      "accountName": "是大D呀～",
-      "avatarUrl": "https://p26.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813_oYWCAmxfF6epFAAiI0mI924DgEgADOAj61v4QA.jpeg?from=327834062",
+      "accountId": "61619463081",
+      "accountName": "杨小安(安崽)(爱旺旺)",
+      "avatarUrl": "https://p11.douyinpic.com/aweme-avatar/tos-cn-avt-0015_6cbc38086b2a49a44f6f892b674254cb~tplv-dy-shrink:188:188.jpeg?from=2956013662",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 41080,
-      "commentCount": 12882,
+      "collectCount": 18727,
+      "commentCount": 3914,
       "commentTopKeywords": [],
-      "content": "AIGC短片《忠犬含泪守故人》 本片为本人独立完成作品。本片根据真实事件创作改编，有艺术修改内容，悲伤部分为剧情需要，无不良引导。最后视频来源于网络。 \n独居奶奶意外离世，房门紧闭。两只忠犬放弃逃生，日夜守在主人身旁。断水断粮五日，黑狗大毛不幸离世。六日后邻居小女孩红红察觉异常报警。救援人员破门，骨瘦的黄狗二毛仍拼死护主，直到一位爷爷温柔安抚才放下戒备。\n二毛本是流浪小狗，被奶奶收养，一人两狗相依为命。奶奶病重时拼命驱赶它们求生，狗狗却执意留下。被带走时，二毛在楼梯间看见主人幻影，发出撕心裂肺的长嚎。短片讲述人与犬跨越生死的羁绊，也提醒大家关注独居老人。 \n本片全程原创打磨，每一处细节都饱含创作者心血。由衷感谢每一位观看、理解并支持原创的观众，愿大家理性观看、友善交流，共同守护纯粹的原创创作氛围。#即梦AI创作者成长计划 #AI创作浪潮计划 #未来导演计划 #抖音创作者大会  #救助流浪狗",
-      "coverUrl": "https://p95-zjwztc-sign.douyinpic.com/tos-cn-i-dy/5a9ad778a7ea4277ac8b8fb37bf322f8~tplv-dy-resize-walign-adapt-aq:540:q75.webp?lk3s=138a59ce&x-expires=1790521200&x-signature=3Lhe0dFs%2BaitqOzdgjsY3LRxBuY%3D&from=327834062&s=PackSourceEnum_AWEME_DETAIL&se=false&sc=cover&biz_tag=aweme_video&l=202609132330058A24ABFF17CC8F366C1D",
-      "duration": 275575,
-      "followerCount": 4640,
+      "content": "小臭狗 #小土狗真的很可爱 #不敢骗你养小狗 #谁能拒绝软萌小狗 #可爱土狗 #被小狗治愈的一天",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/oQ6A4E2DgsAC8TVFfAq9AAAuIQCpdoQfXpPFUC~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104786800&x-signature=ipmV4Xvdl%2FDlC1LMNqG6pAu6b7o%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260915070759A3C6A81CA4E32E630078",
+      "duration": 14400,
+      "followerCount": 109264,
       "isPromotion": null,
-      "likeCount": 516742,
+      "likeCount": 617907,
       "popularityScore": null,
-      "publishTime": "2026-09-11 18:00:00",
+      "publishTime": "2026-09-11 07:20:01",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 226180,
-      "title": "AIGC短片《忠犬含泪守故人》 本片为本人独立完成作品。本片根据真实事件创作改编，有艺术修改内容，悲",
+      "shareCount": 211276,
+      "title": "小臭狗 #小土狗真的很可爱 #不敢骗你养小狗 #谁能拒绝软萌小狗 #可爱土狗 #被小狗治愈的一天",
       "totalScore": null,
-      "workId": "7683914083816443199",
-      "workType": null,
-      "workUrl": "https://www.iesdouyin.com/share/video/7683914083816443199",
+      "workId": "7683550989861696676",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7683550989861696676",
       "tags": [
         "萌宠",
-        "AI萌宠"
+        "治愈",
+        "猫咪日常"
       ],
-      "hot": 2966192,
-      "rank": 32
+      "hot": 2806418,
+      "rank": 35
     },
     {
       "accountId": "51553499365",
@@ -1078,41 +1175,7 @@
         "猫咪日常"
       ],
       "hot": 2669645,
-      "rank": 33
-    },
-    {
-      "accountId": "61619463081",
-      "accountName": "杨小安(安崽)(爱旺旺)",
-      "avatarUrl": "https://p26.douyinpic.com/aweme-avatar/tos-cn-avt-0015_6cbc38086b2a49a44f6f892b674254cb~tplv-dy-shrink:188:188.jpeg?from=2956013662",
-      "category": "动物",
-      "chaInfoTitle": null,
-      "collectCount": 16177,
-      "commentCount": 3220,
-      "commentTopKeywords": [],
-      "content": "小臭狗 #小土狗真的很可爱 #不敢骗你养小狗 #谁能拒绝软萌小狗 #可爱土狗 #被小狗治愈的一天",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/oQ6A4E2DgsAC8TVFfAq9AAAuIQCpdoQfXpPFUC~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104700400&x-signature=Q4%2FtDwmmoKsRBZK5V8APWt%2FSIp4%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260914070013E6C00C4B5848AF292FF1",
-      "duration": 14400,
-      "followerCount": 108907,
-      "isPromotion": null,
-      "likeCount": 552942,
-      "popularityScore": null,
-      "publishTime": "2026-09-11 07:20:01",
-      "recencyScore": null,
-      "relevanceScore": null,
-      "repostCount": 0,
-      "shareCount": 186257,
-      "title": "小臭狗 #小土狗真的很可爱 #不敢骗你养小狗 #谁能拒绝软萌小狗 #可爱土狗 #被小狗治愈的一天",
-      "totalScore": null,
-      "workId": "7683550989861696676",
-      "workType": "0",
-      "workUrl": "https://www.iesdouyin.com/share/video/7683550989861696676",
-      "tags": [
-        "萌宠",
-        "治愈",
-        "猫咪日常"
-      ],
-      "hot": 2480143,
-      "rank": 34
+      "rank": 36
     },
     {
       "accountId": "2783587807542827",
@@ -1120,21 +1183,21 @@
       "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_f4445d3861004653d6b33a32f2287801~tplv-dy-shrink:96:96.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 16029,
-      "commentCount": 5974,
+      "collectCount": 16130,
+      "commentCount": 6012,
       "commentTopKeywords": [],
       "content": "轻轻的摸一下西米露 #万物可爱计划 #我的秋天是毛茸茸的 #萌宠 #边牧西卡 #澳牧西米露",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oMg0g1ACfACNASBoA1ZjG3IwvieEcUlA1niEEt~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104768800&x-signature=%2FEhYVkI6jHkVFXcvprqEF%2ByN%2FCQ%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260915022834A176872A5EA8137BBF8A",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oMg0g1ACfACNASBoA1ZjG3IwvieEcUlA1niEEt~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104855200&x-signature=hiwJ4CoNWN0pQrQrQP3ckLjShNk%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260916022733BFC738F65AF7B1AE72DF",
       "duration": 42500,
-      "followerCount": 3088955,
+      "followerCount": 3089088,
       "isPromotion": null,
-      "likeCount": 598717,
+      "likeCount": 603682,
       "popularityScore": null,
       "publishTime": "2026-09-11 12:28:02",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 179835,
+      "shareCount": 181210,
       "title": "轻轻的摸一下西米露 #万物可爱计划 #我的秋天是毛茸茸的 #萌宠 #边牧西卡 #澳牧西米露",
       "totalScore": null,
       "workId": "7684129777980463781",
@@ -1143,8 +1206,8 @@
       "tags": [
         "萌宠"
       ],
-      "hot": 2475024,
-      "rank": 35
+      "hot": 2494232,
+      "rank": 37
     },
     {
       "accountId": "7673774873157043249",
@@ -1176,7 +1239,7 @@
         "萌宠"
       ],
       "hot": 2467868,
-      "rank": 36
+      "rank": 38
     },
     {
       "accountId": "3278097629581355",
@@ -1208,7 +1271,39 @@
         "萌宠"
       ],
       "hot": 2002329,
-      "rank": 37
+      "rank": 39
+    },
+    {
+      "accountId": "7509114388206191673",
+      "accountName": "喵亦菲",
+      "avatarUrl": "https://p3.douyinpic.com/aweme-avatar/tos-cn-avt-0015_08e46d9b7dbc383e5828bc3c9380559c~tplv-dy-shrink:188:188.jpeg?from=2956013662",
+      "category": "动物",
+      "chaInfoTitle": null,
+      "collectCount": 23051,
+      "commentCount": 2119,
+      "commentTopKeywords": [],
+      "content": "好长的脖子 #喵亦菲",
+      "coverUrl": "https://p3-sign.douyinpic.com/tos-cn-i-0813c000-ce/o8oiOqzlEQsgAFhCOAnEAwEAhUAoC4DfAI5f9R~540x0.jpeg?lk3s=138a59ce&x-expires=1790701200&x-signature=FZ12FIBPaCv2S%2BkRVUaV1elp42c%3D&from=327834062_large&s=PackSourceEnum_PUBLISH&se=false&sc=cover&biz_tag=aweme_video&l=20260916014842D9D48B3F2A198DF8C916",
+      "duration": 7400,
+      "followerCount": 38814,
+      "isPromotion": null,
+      "likeCount": 616896,
+      "popularityScore": null,
+      "publishTime": "2026-09-10 09:10:45",
+      "recencyScore": null,
+      "relevanceScore": null,
+      "repostCount": 0,
+      "shareCount": 107436,
+      "title": "好长的脖子 #喵亦菲",
+      "totalScore": null,
+      "workId": "7683707852746124475",
+      "workType": "0",
+      "workUrl": "https://www.iesdouyin.com/share/video/7683707852746124475",
+      "tags": [
+        "萌宠"
+      ],
+      "hot": 1771004,
+      "rank": 40
     },
     {
       "accountId": "3525515207776763",
@@ -1216,21 +1311,21 @@
       "avatarUrl": "https://p3-pc.douyinpic.com/aweme-avatar/tos-cn-avt-0015_25e710fadddca2896127fc57a41b4caa~tplv-dy-shrink:96:96.jpeg?from=327834062",
       "category": "动物",
       "chaInfoTitle": null,
-      "collectCount": 19160,
-      "commentCount": 6102,
+      "collectCount": 20748,
+      "commentCount": 6319,
       "commentTopKeywords": [],
       "content": "急的只是一味的吹口哨#小寒狗狗",
-      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oYAsA8ofMmKVWABHfNQt2eQfGTwgV4vAV6tFfA~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104772400&x-signature=TJqjiv6pxvWt6CpeXOZbDgzb1Lc%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=2026091503595302E20E4402731670E3D9",
+      "coverUrl": "https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oYAsA8ofMmKVWABHfNQt2eQfGTwgV4vAV6tFfA~tplv-dy-cropcenter:323:430.jpeg?lk3s=138a59ce&x-expires=2104858800&x-signature=Jx7eeD98pPuGlrnsUMQtyIZX4XE%3D&from=327834062&s=PackSourceEnum_PUBLISH&se=true&sh=323_430&sc=cover&biz_tag=pcweb_cover&l=20260916035935A9C3F28998F8EFD4B1D7",
       "duration": 45734,
-      "followerCount": 390555,
+      "followerCount": 395476,
       "isPromotion": null,
-      "likeCount": 517206,
+      "likeCount": 543932,
       "popularityScore": null,
       "publishTime": "2026-09-11 10:57:05",
       "recencyScore": null,
       "relevanceScore": null,
       "repostCount": 0,
-      "shareCount": 84216,
+      "shareCount": 87789,
       "title": "急的只是一味的吹口哨#小寒狗狗",
       "totalScore": null,
       "workId": "7684106336858735077",
@@ -1239,8 +1334,8 @@
       "tags": [
         "萌宠"
       ],
-      "hot": 1447356,
-      "rank": 38
+      "hot": 1515661,
+      "rank": 41
     },
     {
       "accountId": "3260480999135387",
@@ -1272,7 +1367,7 @@
         "萌宠"
       ],
       "hot": 1113821,
-      "rank": 39
+      "rank": 42
     }
   ]
 }
